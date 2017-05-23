@@ -11,3 +11,6 @@ The supplementary application we're interested in today is called [Story Maps](h
 
 Story Maps is a powerful tool that allows you to integrate an audiovisual narrative with the relevant geographic relationships between the moments of the narrative and their spatial locations.
 
+## Table of Contents
+* [Getting Started -- Creating your Basemap]()
+* Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application
