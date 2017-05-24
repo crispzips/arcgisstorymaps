@@ -14,8 +14,9 @@ Story Maps is a powerful tool that allows you to integrate an audiovisual narrat
 ## Table of Contents
 * [About](#about)
 * [Getting Started -- Creating your Basemap](#getting-started)
-* [Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application]()
-* Supplements(#supplements)
+* [Story Maps](#story-maps)
+  * [Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application](#initializing-story-maps)
+* [Supplements](#supplements)
 
 ## About
 Last Updated May 2017  
@@ -37,10 +38,12 @@ There are three things you can do from this screen:
 * choose a basemap
 * add layers
 
+### Basemap and Zoom
 ArcGIS Online only allows preset quantum zooming, so you must use the "+/-" zoom buttons and operate within the coarse adjustments they permit.
 
 ArcGIS Online provides 12 basemap options. The default is called "Topographic", but there are options for satellite imagery, monochromatic maps, streetmaps from [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100), and others. Think tactically and tactfully about what you need to map to represent (and what you don't) in light of your project goals and aesthetic grammar.
 
+### Layers
 The layers are the most important component of this preparatory process. "Layers" in ArcGIS can either mean map tile sets, or smatterings of geographic data: both the quantitative data of latitudes and longitudes, but also the qualitative descriptions of what those points represent.
 
 (Refer to the [supplements](#Supplements) section to learn how to add new tile layers (in the form of a beautiful watercolor map))
@@ -59,7 +62,16 @@ For this tutorial we're going to upload be using a crime incident dataset provid
 
 Return to the ArcGIS Online Map Viewer. Click the "Add" dropdown menu and select "add layer from file." Browse for the Lynchburg, VA crime incidents dataset you just downloaded.
 
-The basemap you created will automatically populate with 
+The basemap you created will automatically populate with datapoints from the "inci_id" column of the Lynchburg crime data (this is what we want, these points represent unique instances of a committed crime).
+
+From here you can adjust the style of the layer under "select a drawing style" (I recommend "Counts and Amounts (Size)). After you select the style, you can change the style properties by clicking "options".
+
+This is the process for making any map in ArcGIS online. From here we will go on to create a Story Map using the map you've just created.
+
+## Story Maps
+### Initializing Story Maps
+
+
 ## Supplements
 
 ### Adding a New Tile Set
