@@ -59,4 +59,4 @@ There are a few ways to get a basemap tile set that isn't included as one of the
 
 * The easiest is just to locate a basemap layer on the ArcGIS public server and, while logged into your ArcGIS Online account, have that basemap "Open in Map Viewer".
 
-![ArcGIS open public map tile layer in map view](/images/storymapS1.PNG)
+![ArcGIS open public map tile layer in map view](/images/storymapS1.png)
