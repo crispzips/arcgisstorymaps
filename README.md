@@ -47,8 +47,19 @@ The layers are the most important component of this preparatory process. "Layers
 
 There are several ways to "lay" geographic data onto the map you've set up: click the "Add" tab from the top toolbar.
 
+![ArcGIS Add layers menu](/images/storymap02.png)
 
+You can import layers from the web, search for publicly accessible layers on the ArcGIS Online server, or upload a file.
 
+ArcGIS Online can work with [KML](https://developers.google.com/kml/documentation/), [GeoRSS](http://www.georss.org/), or [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files.
+
+For this tutorial we're going to upload be using a crime incident dataset provided by the City of Lynchburg, Virginia. The City of Lynchburg maintains an open data portal in the spirit of administrative transparency. From the [Crime Incident page of the Open Data Portal](http://data-cityoflynchburg.opendata.arcgis.com/datasets/3c7b25e759a643cb9ef7d8caf6f5db21_0?mapSize=map-maximize&geometry=-79.841%2C37.193%2C-78.535%2C37.648), download the CSV file ("spreadsheet") of the dataset.
+
+![ArcGiS Lynchburg Virginia Crime Incident Dataset Download](/images/storymap03.png)
+
+Return to the ArcGIS Online Map Viewer. Click the "Add" dropdown menu and select "add layer from file." Browse for the Lynchburg, VA crime incidents dataset you just downloaded.
+
+The basemap you created will automatically populate with 
 ## Supplements
 
 ### Adding a New Tile Set
