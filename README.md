@@ -14,3 +14,13 @@ Story Maps is a powerful tool that allows you to integrate an audiovisual narrat
 ## Table of Contents
 * [Getting Started -- Creating your Basemap]()
 * Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application
+
+## Getting Started
+
+ArcGIS uses the "freemium" model, so though they provide various professional versions of their platform with high functionality for a cost, they also provide free public accounts. Before we get started, go to the [ArcGIS Online](https://www.arcgis.com/features/index.html) portal and create a free public account.
+
+When you've done that, click on the "Map" tab of the main menu. From the Arc GIS Online frontpage, you can also access a Gallery to see the potential of ArcGIS Online, or access the maps you've made under "My Content", once you've created some.
+
+In the "Map" section, you should be taken to this screen:
+
+![ArcGIS Mapmaker]()
