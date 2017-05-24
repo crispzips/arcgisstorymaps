@@ -47,6 +47,8 @@ The layers are the most important component of this preparatory process. "Layers
 
 There are several ways to "lay" geographic data onto the map you've set up: click the "Add" tab from the top toolbar.
 
+
+
 ## Supplements
 
 ### Adding a New Tile Set
@@ -56,7 +58,7 @@ You can refer to [this ESRI blog post](https://blogs.esri.com/esri/arcgis/2013/0
 Maps in online mapping platforms, such as Google Maps, OpenStreetMap, ArcGIS Online, etc., display as successions of image tiles. Each map view is a matrix of tiles and as you zoom in on the map, the tiles are replaced with new tiles with more detail, thus maintaining the map's resolution.
 
 There are a few ways to get a basemap tile set that isn't included as one of the default 12 maps in ArcGIS online.
-
+* To manually add a tile layer from the web, refer to the above blogpost
 * The easiest is just to locate a basemap layer on the ArcGIS public server and, while logged into your ArcGIS Online account, have that basemap "Open in Map Viewer".
 
 ![ArcGIS open public map tile layer in map view](/images/storymapS1.png)
