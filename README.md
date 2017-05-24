@@ -23,4 +23,4 @@ When you've done that, click on the "Map" tab of the main menu. From the Arc GIS
 
 In the "Map" section, you should be taken to this screen:
 
-![ArcGIS Mapmaker](/images/storymaps01.png)
+![ArcGIS Mapmaker](/images/storymaps01.PNG)
