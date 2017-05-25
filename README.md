@@ -71,6 +71,35 @@ This is the process for making any map in ArcGIS online. From here we will go on
 ## Story Maps
 ### Initializing Story Maps
 
+Notice the toolbar on the right at the top of the screen.
+
+![ArcGIS Online Save Share Print Measure Search Toolbar](/images/storymap04.png)
+
+The measurement tool allows you to determine the area of any polygon (created by successively clicking where you want the vertices, not clicking and dragging and being limited to quandrangles); the length of any line segment, or series of non-linear but conjoined line segments (again by clicking in succession); or the latitude and longitude of point.
+
+You can also save you map from this toolbar. Make sure you do this now before we proceed!
+
+Initializing your map in an ArcGIS web application is unintuitive from this view.
+* Click "Share" in this top-right toolbar
+* Check the box to share with "Everyone (public)"
+* Click the bottom-right button "Create a web app", despite the fact that it appears inactive in grey.
+
+This will open a dialog box with access to the full suite of ArcGIS web applications, this isn't the forum to discuss all of them, especially given their specialized functionalities, but we will explore the Story Map applications.
+* Click "Build a Story Map"
+ * Basic
+ * Cascade
+ * Crowdsource (beta)
+ * Journal
+ * Series
+ * Shortlist (beta)
+ * Swipe and Spyglass
+ * Tour
+
+We're going to be working Story Map Journal during this tutorial, but I really encourage you to play around with all 8 versions.
+
+They represent different graphical/stylistic variations on the same concept: a map (one that you've designed in the map builder above), accompanied by multimodal content presented in a set of geographic relationships to the map you provide. For "Story Map Basic", that content consists merely of a clean presentation window with a brief description of the map. Also, the "Story Map Crowdsource (beta)" requires an ArcGIS subscription, but the National Parks Service has created [a great example](https://storymaps.esri.com/stories/2016/national-park-memories/index.html) of the power and poignancy of this application.
+
+
 
 ## Supplements
 
