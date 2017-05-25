@@ -167,17 +167,19 @@ If you keep the Main Stage content as a map, you can:
 
 The Side Panel can present images, video, text description, links, block quotes, or bulleted and numbered lists.
 
-Here's an example of the combined functionality of each section. I recentered and zoomed the map (to a particular neighborhood); I had the map display a detail pop-up of a particular datapoint; I have the overview map displayed in the corner; the legend can drop-down from the top; I have contextualizing imagery, video, and description in the Side Panel.
+Here's an example of the combined functionality of each section (highlighted in red). I recentered and zoomed the map (to a particular neighborhood); I had the map display a detail pop-up of a particular datapoint; I have the overview map displayed in the corner; the legend can drop-down from the top; I have contextualizing imagery, video, and description in the Side Panel.
 
 ![ArcGIS Story Map Journal final example](images/storymap12.PNG)
 
-Notice what happens when you scroll between sections. I have posted the example used for this tutorial [here](http://arcg.is/2qoDTVl)
+I have posted the example used for this tutorial [here](http://arcg.is/2qoDTVl). Notice the effects when you scroll between sections. 
 
-** *Now all you have to do is string sections together to create a larger multimodal narrative -- all rooted in the geographic relationships of the spatial data and the qualitative anecdotes that make that data meaningful.* **
+** *Now all you have to do is string sections together to create a larger multimodal narrative -- all rooted in the geographic relationships of the spatial data and the multimedia qualitative anecdotes that make that data meaningful...* **
 
-When you're all done, you can share a link to your story map or embed it into a website. Have fun!
+When you're all done, you can share a link to your story map or embed it into a website. **Have fun!**
 
 [the story map created for this tutorial is completely fabricated and unrelated to any legitimate scholarly research project (thank goodness)]
+
+<hr></hr>
 ## Supplements
 
 ### Adding a New Tile Set
