@@ -73,7 +73,7 @@ This is the process for making any map in ArcGIS online. From here we will go on
 
 Notice the toolbar on the right at the top of the screen.
 
-![ArcGIS Online Save Share Print Measure Search Toolbar](/images/storymap04.png)
+![ArcGIS Online Save Share Print Measure Search Toolbar](/images/storymap04.PNG)
 
 The measurement tool allows you to determine the area of any polygon (created by successively clicking where you want the vertices, not clicking and dragging and being limited to quandrangles); the length of any line segment, or series of non-linear but conjoined line segments (again by clicking in succession); or the latitude and longitude of point.
 
@@ -94,6 +94,8 @@ This will open a dialog box with access to the full suite of ArcGIS web applicat
  * Shortlist (beta)
  * Swipe and Spyglass
  * Tour
+
+![ArcGIS Story Map versions](/images/storymap05.PNG)
 
 We're going to be working Story Map Journal during this tutorial, but I really encourage you to play around with all 8 versions.
 
