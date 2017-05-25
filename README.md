@@ -138,7 +138,7 @@ The Story Map Journal interface is divided into a "Main Stage" and a "Side Panel
 
 [If you want to get creative and personalize your Side Panel content with precision, you can open the code editor (tool button second-from-the-right) and input html and inline css]
 
-![ArcGIS text editor code editor](/images/storymap09.png)
+![ArcGIS text editor code editor](/images/storymap09.PNG)
 
 Now that we've placed the Main Stage content map and the Side Panel introduction, we've established the process we can repeat to create our entire journal. All that's left is to go through the various functions of the side panel.
 
