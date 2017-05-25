@@ -112,10 +112,11 @@ This will open a dialog box with access to the full suite of ArcGIS web applicat
 
 ![ArcGIS Story Map versions](/images/storymap05.PNG)
 
-We're going to be working Story Map Journal during this tutorial, but I really encourage you to play around with all 8 versions.
+We're going to be working with *Story Map Journal* during this tutorial, but I really encourage you to play around with all 8 versions.
 
-They represent different graphical/stylistic variations on the same concept: a map (one that you've designed in the map builder as above) accompanied by multimodal content presented with a set of geographic relationships to the map you provide. For "Story Map Basic", that content consists merely of a clean presentation window with a brief description of the map. Also, the "Story Map Crowdsource (beta)" requires an ArcGIS subscription, but the National Parks Service has created [a great example](https://storymaps.esri.com/stories/2016/national-park-memories/index.html) of the power and poignancy of this application.
+They represent different graphical/stylistic variations on the same concept: a map (one that you've designed in the map builder as above) accompanied by multimodal content presented with a set of geographic relationships to the map you provide. For *Story Map Basic*, that content consists merely of a clean presentation window with a brief description of the map. Also, *Story Map Crowdsource (beta)* requires an ArcGIS subscription, but the National Parks Service has created [a great example](https://storymaps.esri.com/stories/2016/national-park-memories/index.html) of the power and poignancy of this application.
 
+Initializing *Story Map Journal*
 * In the "Build a Story Map" tab
 * Click "Story Map Journal"
 * Click "Create Web App" (blue button)
@@ -124,9 +125,11 @@ They represent different graphical/stylistic variations on the same concept: a m
 
 ![ArcGIS Story Map start window](/images/storymap06.png)
 
-This will take you to an option between a floating panel and a side panel. You can see live examples for both of these through this dialog box, for simplicity, just select "Side Panel" and Click "Start"
+This will take you to an option between a floating panel and a side panel. You can see live examples for both of these through this dialog box. For simplicity, just select "Side Panel" and Click "Start"
 
 From here you can take a tour of the Story Map Journal web application, this will briefly detail the functionality of the Journal.
+
+![ArcGIS Story Map Journal tour](/images/storymap13.png)
 
 Now we're ready to turn our map into a story.
 
