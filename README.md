@@ -169,7 +169,7 @@ The Side Panel can present images, video, text description, links, block quotes,
 
 Here's an example of the combined functionality of each section. I recentered and zoomed the map (to a particular neighborhood); I had the map display a detail pop-up of a particular datapoint; I have the overview map displayed in the corner; the legend can drop-down from the top; I have contextualizing imagery, video, and description in the Side Panel.
 
-![ArcGIS Story Map Journal final example](images/storymap12.png)
+![ArcGIS Story Map Journal final example](images/storymap12.PNG)
 
 Notice what happens when you scroll between sections. I have posted the example used for this tutorial [here](http://arcg.is/2qoDTVl)
 
