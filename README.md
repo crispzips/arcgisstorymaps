@@ -46,7 +46,7 @@ ArcGIS Online only allows preset quantum zooming, so you must use the "+/-" zoom
 ArcGIS Online provides 12 basemap options. The default is called "Topographic", but there are options for satellite imagery, monochromatic maps, streetmaps from [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100), and others. Think tactically and tactfully about what you need to map to represent (and what you don't) in light of your project goals and aesthetic grammar.
 
 ### Layers
-The layers are the most important component of this preparatory process. "Layers" in ArcGIS can either mean map tile sets, or smatterings of geographic data: both the quantitative data of latitudes and longitudes, but also the qualitative descriptions of what those points represent.
+The layers are the most important component of this preparatory process. "Layers" in ArcGIS can either mean map tile sets, or smatterings of geographic data (what ArcGIS calls "features): both the quantitative data of latitudes and longitudes and the qualitative descriptions of what those points represent.
 
 (Refer to the [supplements](#Supplements) section to learn how to add new tile layers (in the form of a beautiful watercolor map))
 
@@ -76,6 +76,8 @@ This is the process for making any map in ArcGIS online. From here we will go on
 
 ## Story Maps
 ### Initializing Story Maps
+
+[Don't worry about my funky-looking map below; it's because I chose the [Stamen Toner tileset](http://www.arcgis.com/home/item.html?id=48bb8cc0ddef4638b12ff5c1251fddf7) for my basemap]
 
 Notice the toolbar on the right at the top of the screen.
 
@@ -134,6 +136,10 @@ The Story Map Journal interface is divided into a "Main Stage" and a "Side Panel
 
 ![ArcGIS Story Map Journal Side Panel Editor](/images/storymap08.png)
 
+[If you want to get creative and personalize your Side Panel content with precision, you can open the code editor (tool button second-from-the-right) and input html and inline css]
+
+![ArcGIS text editor code editor](/images/storymap09.png)
+
 Now that we've placed the Main Stage content map and the Side Panel introduction, we've established the process we can repeat to create our entire journal. All that's left is to go through the various functions of the side panel.
 
 ### Side Panel Functionality
@@ -150,6 +156,14 @@ Each new section involves not just creating Side Panel content for that section,
 
 ![ArcGIS Story Map Journal Add Section Configuration Dialog Box](/images/storymap11.png)
 
+For each section you can set the content of the Main Stage to a map, image, video, or webpage.
+
+If you keep the Main Stage content as a map, you can:
+* Change the location and zoom level of the map - (Click "Custom configuration" in "Location" section)
+* Choose which layers you want displayed on the map. Our map only has two layers, a basemap and a layer of crime incident datapoints. Some maps have dozens of layers of information, and discarding irrelavant layers can help clarify the point you're trying to make in a particular section - (Click "Custom configuration" in "Content" section)
+* Display a pop-up containing supplementary information about a particular datapoint (feature) - (Click "Custom configuration" in "Pop-up" section)
+* Since you might display only a particular detail of the map for a section, you can keep the larger map displayed - ("Overview Map" in "Extras" section)
+* You can also allow your audience to see the map legend or search for addresses, places, or features (data points) on your map - ("Extras" section)
 ## Supplements
 
 ### Adding a New Tile Set
