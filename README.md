@@ -17,6 +17,7 @@ Story Maps is a powerful tool that allows you to integrate an audiovisual narrat
 * [Story Maps](#story-maps)
   * [Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application](#initializing-story-maps)
   * [Building Your Story Map Journal](#building-your-story-map-journal)
+  * [Side Panel Functionality](#side-panel-functionality)
 * [Supplements](#supplements)
 
 ## About
@@ -129,10 +130,17 @@ The Story Map Journal interface is divided into a "Main Stage" and a "Side Panel
 ![ArcGIS Story Map Journal Building start](/images/storymap07.png)
 
 * Keep all of the default options and click "Next"
-* You'll then be asked to populate your Side Panel (this is where the text and media of your narrative go) ArcGIS wants you to creat a home section, with a project subtitle (the title you gave earlier will display automatically), and maybe an introductory image first.
+* You'll then be asked to populate your Side Panel (this is where the text and media of your narrative go) ArcGIS wants you to create a home section, with a project subtitle (the title you gave earlier will display automatically), and maybe an introductory image first.
 
 ![ArcGIS Story Map Journal Side Panel Editor](/images/storymap08.png)
 
+Now that we've placed the Main Stage content map and the Side Panel introduction, we've established the process we can repeat to create our entire journal. All that's left is to go through the various functions of the side panel.
+
+### Side Panel Functionality
+
+After you've created your starting view for your Main Stage (map) and your Side Panel introduction, there are only two actions you need to perform to enlarge and enhance your story.
+* "Add Section"
+* "Organize"
 
 ## Supplements
 
