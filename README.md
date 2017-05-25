@@ -164,6 +164,20 @@ If you keep the Main Stage content as a map, you can:
 * Display a pop-up containing supplementary information about a particular datapoint (feature) - (Click "Custom configuration" in "Pop-up" section)
 * Since you might display only a particular detail of the map for a section, you can keep the larger map displayed - ("Overview Map" in "Extras" section)
 * You can also allow your audience to see the map legend or search for addresses, places, or features (data points) on your map - ("Extras" section)
+
+The Side Panel can present images, video, text description, links, block quotes, or bulleted and numbered lists.
+
+Here's an example of the combined functionality of each section. I recentered and zoomed the map (to a particular neighborhood); I had the map display a detail pop-up of a particular datapoint; I have the overview map displayed in the corner; the legend can drop-down from the top; I have contextualizing imagery, video, and description in the Side Panel.
+
+![ArcGIS Story Map Journal final example](images/storymap12.png)
+
+Notice what happens when you scroll between sections. I have posted the example used for this tutorial [here](http://arcg.is/2qoDTVl)
+
+** *Now all you have to do is string sections together to create a larger multimodal narrative -- all rooted in the geographic relationships of the spatial data and the qualitative anecdotes that make that data meaningful.* **
+
+When you're all done, you can share a link to your story map or embed it into a website. Have fun!
+
+[the story map created for this tutorial is completely fabricated and unrelated to any legitimate scholarly research project (thank goodness)]
 ## Supplements
 
 ### Adding a New Tile Set
