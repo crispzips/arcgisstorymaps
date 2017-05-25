@@ -16,6 +16,7 @@ Story Maps is a powerful tool that allows you to integrate an audiovisual narrat
 * [Getting Started -- Creating your Basemap](#getting-started)
 * [Story Maps](#story-maps)
   * [Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application](#initializing-story-maps)
+  * [Building Your Story Map Journal](#building-your-story-map-journal)
 * [Supplements](#supplements)
 
 ## About
@@ -62,7 +63,11 @@ For this tutorial we're going to upload be using a crime incident dataset provid
 
 Return to the ArcGIS Online Map Viewer. Click the "Add" dropdown menu and select "add layer from file." Browse for the Lynchburg, VA crime incidents dataset you just downloaded.
 
-The basemap you created will automatically populate with datapoints from the "inci_id" column of the Lynchburg crime data (this is what we want, these points represent unique instances of a committed crime).
+Don't worry about the "Warning" window that just popped up. It's telling you the dataset has more than 1000 features, for the sake of ease and speed, dismiss this dialog box by clicking "No, Stop Adding Features".
+
+[Another note about this dataset: It comes with unique geographic identifiers for each crime incident. If you upload your own data, ArcGIS online will ask you to connect either latitude and logitude, or a set of postal address identifiers to the column headings in your data.]
+
+The basemap you created will automatically populate with datapoints from the "inci_id" column of the Lynchburg crime data (this is what we want, these points represent unique instances of a committed crime). 
 
 From here you can adjust the style of the layer under "select a drawing style" (I recommend "Counts and Amounts (Size)). After you select the style, you can change the style properties by clicking "options".
 
@@ -75,7 +80,7 @@ Notice the toolbar on the right at the top of the screen.
 
 ![ArcGIS Online Save Share Print Measure Search Toolbar](/images/storymap04.PNG)
 
-The measurement tool allows you to determine the area of any polygon (created by successively clicking where you want the vertices, not clicking and dragging and being limited to quandrangles); the length of any line segment, or series of non-linear but conjoined line segments (again by clicking in succession); or the latitude and longitude of point.
+The measurement tool allows you to determine the area of any polygon (created by successively clicking where you want the vertices, not clicking and dragging and being limited to quandrangles); the length of any line segment, or series of non-linear but conjoined line segments (again by clicking in succession); or the latitude and longitude of a point.
 
 You can also save you map from this toolbar. Make sure you do this now before we proceed!
 
@@ -85,7 +90,7 @@ Initializing your map in an ArcGIS web application is unintuitive from this view
 * Click the bottom-right button "Create a web app", despite the fact that it appears inactive in grey.
 
 This will open a dialog box with access to the full suite of ArcGIS web applications, this isn't the forum to discuss all of them, especially given their specialized functionalities, but we will explore the Story Map applications.
-* Click "Build a Story Map"
+* Click the "Build a Story Map" tab.
  * Basic
  * Cascade
  * Crowdsource (beta)
@@ -99,9 +104,27 @@ This will open a dialog box with access to the full suite of ArcGIS web applicat
 
 We're going to be working Story Map Journal during this tutorial, but I really encourage you to play around with all 8 versions.
 
-They represent different graphical/stylistic variations on the same concept: a map (one that you've designed in the map builder above), accompanied by multimodal content presented in a set of geographic relationships to the map you provide. For "Story Map Basic", that content consists merely of a clean presentation window with a brief description of the map. Also, the "Story Map Crowdsource (beta)" requires an ArcGIS subscription, but the National Parks Service has created [a great example](https://storymaps.esri.com/stories/2016/national-park-memories/index.html) of the power and poignancy of this application.
+They represent different graphical/stylistic variations on the same concept: a map (one that you've designed in the map builder as above) accompanied by multimodal content presented with a set of geographic relationships to the map you provide. For "Story Map Basic", that content consists merely of a clean presentation window with a brief description of the map. Also, the "Story Map Crowdsource (beta)" requires an ArcGIS subscription, but the National Parks Service has created [a great example](https://storymaps.esri.com/stories/2016/national-park-memories/index.html) of the power and poignancy of this application.
 
+* In the "Build a Story Map" tab
+* Click "Story Map Journal"
+* Click "Create Web App" (blue button)
+* Name your Story Map and tag it with identifiable keywords (these can simply be the name and tags of the map you created above)
+* and ... Click "Done"
 
+![ArcGIS Story Map start window](/images/storymap06.PNG)
+
+This will take you to an option between a floating panel and a side panel. You can see live examples for both of these through this dialog box, for simplicity, just select "Side Panel" and Click "Start"
+
+From here you can take a tour of the Story Map Journal web application, this will briefly detail the functionality of the Journal.
+
+Now we're ready to turn our map into a story.
+
+### Building Your Story Map Journal
+
+The Story Map Journal interface is divided into a "Main Stage" and a "Side Panel". First select what you want your audience to see on the Main Stage. This is most often (and probably the intention of ArcGIS) a map, but you are allow to make it an image, video, or web page as well.
+
+![ArcGIS Story Map Journal Building start](/images/storymap07.PNG)
 
 ## Supplements
 
