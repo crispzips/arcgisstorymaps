@@ -18,7 +18,7 @@ Story Maps is a powerful tool that allows you to integrate an audiovisual narrat
   * [Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application](#initializing-story-maps)
   * [Building Your Story Map Journal](#building-your-story-map-journal)
   * [Side Panel Functionality](#side-panel-functionality)
-* [Supplements](#supplements)
+* [Supplement](#supplement)
 
 ## About
 Last Updated May 2017  
@@ -180,7 +180,8 @@ When you're all done, you can share a link to your story map or embed it into a 
 [the story map created for this tutorial is completely fabricated and unrelated to any legitimate scholarly research project (thank goodness)]
 
 <hr></hr>
-## Supplements
+
+## Supplement
 
 ### Adding a New Tile Set
 
