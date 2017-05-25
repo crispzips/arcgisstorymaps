@@ -14,6 +14,8 @@ Story Maps is a powerful tool that allows you to integrate an audiovisual narrat
 ## Table of Contents
 * [About](#about)
 * [Getting Started -- Creating your Basemap](#getting-started)
+ * [Basemap and Zoom](#basemap-and-zoom)
+ * [Layers](#layers)
 * [Story Maps](#story-maps)
   * [Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application](#initializing-story-maps)
   * [Building Your Story Map Journal](#building-your-story-map-journal)
@@ -27,9 +29,9 @@ University of Oklahoma Libraries
 
 ## Getting Started
 
-ArcGIS uses the "freemium" model, so though they provide various professional versions of their platform with high functionality for a cost, they also provide free public accounts. Before we get started, go to the [ArcGIS Online](https://www.arcgis.com/features/index.html) portal and create a free public account.
+ArcGIS uses the "freemium" model, so though they provide a professional version of their platform with high functionality for a cost, they also provide free public accounts. Before we get started, go to the [ArcGIS Online](https://www.arcgis.com/features/index.html) portal and create a free public account.
 
-When you've done that, click on the "Map" tab of the main menu. From the Arc GIS Online frontpage, you can also access a Gallery to see the potential of ArcGIS Online, or access the maps you've made under "My Content", once you've created some.
+When you've done that, click on the "Map" tab of the main menu. From the Arc GIS Online frontpage, you can also access the "Gallery" to see the potential of ArcGIS Online, or access the maps you've made under "My Content", once you've created some.
 
 In the "Map" section, you should be taken to this screen:
 
@@ -43,12 +45,12 @@ There are three things you can do from this screen:
 ### Basemap and Zoom
 ArcGIS Online only allows preset quantum zooming, so you must use the "+/-" zoom buttons and operate within the coarse adjustments they permit.
 
-ArcGIS Online provides 12 basemap options. The default is called "Topographic", but there are options for satellite imagery, monochromatic maps, streetmaps from [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100), and others. Think tactically and tactfully about what you need to map to represent (and what you don't) in light of your project goals and aesthetic grammar.
+ArcGIS Online provides 12 preloaded basemap options. The default is called "Topographic", but there are options for satellite imagery, monochromatic maps, streetmaps from [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100), and others. Think tactically and tactfully about what you need to map to represent (and what you don't) in light of your project goals and aesthetic grammar.
 
 ### Layers
-The layers are the most important component of this preparatory process. "Layers" in ArcGIS can either mean map tile sets, or smatterings of geographic data (what ArcGIS calls "features): both the quantitative data of latitudes and longitudes and the qualitative descriptions of what those points represent.
+The layers are the most important component of this preparatory process. "Layers" in ArcGIS can either mean map tile sets, or smatterings of geographic data (what ArcGIS calls "features"): both the quantitative data of latitudes and longitudes and the qualitative descriptions of what those points represent.
 
-(Refer to the [supplements](#Supplements) section to learn how to add new tile layers (in the form of a beautiful watercolor map))
+(Refer to the [supplement](#supplement) section to learn how to add new tile layers (in the form of a beautiful watercolor map, for example))
 
 There are several ways to "lay" geographic data onto the map you've set up: click the "Add" tab from the top toolbar.
 
@@ -58,19 +60,21 @@ You can import layers from the web, search for publicly accessible layers on the
 
 ArcGIS Online can work with [KML](https://developers.google.com/kml/documentation/), [GeoRSS](http://www.georss.org/), or [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files.
 
-For this tutorial we're going to upload be using a crime incident dataset provided by the City of Lynchburg, Virginia. The City of Lynchburg maintains an open data portal in the spirit of administrative transparency. From the [Crime Incident page of the Open Data Portal](http://data-cityoflynchburg.opendata.arcgis.com/datasets/3c7b25e759a643cb9ef7d8caf6f5db21_0?mapSize=map-maximize&geometry=-79.841%2C37.193%2C-78.535%2C37.648), download the CSV file ("spreadsheet") of the dataset.
+For this tutorial we're going to be using a crime incident dataset provided by the City of Lynchburg, Virginia. The City of Lynchburg maintains an open data portal in the spirit of administrative transparency. From the [Crime Incident page of the Open Data Portal](http://data-cityoflynchburg.opendata.arcgis.com/datasets/3c7b25e759a643cb9ef7d8caf6f5db21_0?mapSize=map-maximize&geometry=-79.841%2C37.193%2C-78.535%2C37.648), download the CSV file ("spreadsheet") of the dataset.
 
 ![ArcGiS Lynchburg Virginia Crime Incident Dataset Download](/images/storymap03.png)
 
-Return to the ArcGIS Online Map Viewer. Click the "Add" dropdown menu and select "add layer from file." Browse for the Lynchburg, VA crime incidents dataset you just downloaded.
+* Return to the ArcGIS Online Map Viewer. Click the "Add" dropdown menu and select "add layer from file." Browse for the Lynchburg, VA crime incidents dataset you just downloaded.
 
-Don't worry about the "Warning" window that just popped up. It's telling you the dataset has more than 1000 features, for the sake of ease and speed, dismiss this dialog box by clicking "No, Stop Adding Features".
+Don't worry about the "Warning" window that just popped up. It's telling you the dataset has more than 1000 features (datapoints). For the sake of ease and speed, dismiss this dialog box by clicking "No, Stop Adding Features".
 
-[Another note about this dataset: It comes with unique geographic identifiers for each crime incident. If you upload your own data, ArcGIS online will ask you to connect either latitude and logitude, or a set of postal address identifiers to the column headings in your data.]
+*[Another note about this dataset: It comes with unique geographic identifiers for each crime incident. If you upload your own data, ArcGIS online will ask you to connect either latitude and logitude, or a set of postal address identifiers to the column headings in your data.]*
 
-The basemap you created will automatically populate with datapoints from the "inci_id" column of the Lynchburg crime data (this is what we want, these points represent unique instances of a committed crime). 
+The basemap you created will automatically populate with datapoints from the "inci_id" column of the Lynchburg crime data (this is what we want, these points represent unique instances of a committed crime). ArcGIS will automatically adjust the position and zoom level of the map to neatly contain the data you "layed" on the map. You can also manually adjust the position and zoom of your map. 
 
-From here you can adjust the style of the layer under "select a drawing style" (I recommend "Counts and Amounts (Size)). After you select the style, you can change the style properties by clicking "options".
+From here you can adjust the style of the layer under "select a drawing style" (I recommend "Counts and Amounts (Size)"). After you select the style, you can change the style properties by clicking "options".
+
+*[Remember: How you see the map on this interface is the default display of the map inside the ArcGIS Online web application (Story Maps)]*
 
 This is the process for making any map in ArcGIS online. From here we will go on to create a Story Map using the map you've just created.
 
