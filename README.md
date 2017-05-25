@@ -142,7 +142,7 @@ After you've created your starting view for your Main Stage (map) and your Side 
 * "Add Section"
 * "Organize"
 
-![ArcGIS Story Map Journal Add Section Organize Button](/images/storymap10.png)
+![ArcGIS Story Map Journal Add Section Organize Button](/images/storymap10.PNG)
 
 * Click "Add Section"
 
