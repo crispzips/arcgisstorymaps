@@ -14,8 +14,8 @@ Story Maps is a powerful tool that allows you to integrate an audiovisual narrat
 ## Table of Contents
 * [About](#about)
 * [Getting Started -- Creating your Basemap](#getting-started)
- * [Basemap and Zoom](#basemap-and-zoom)
- * [Layers](#layers)
+  * [Basemap and Zoom](#basemap-and-zoom)
+  * [Layers](#layers)
 * [Story Maps](#story-maps)
   * [Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application](#initializing-story-maps)
   * [Building Your Story Map Journal](#building-your-story-map-journal)
@@ -129,7 +129,7 @@ This will take you to an option between a floating panel and a side panel. You c
 
 From here you can take a tour of the Story Map Journal web application, this will briefly detail the functionality of the Journal.
 
-![ArcGIS Story Map Journal tour](/images/storymap13.png)
+![ArcGIS Story Map Journal tour](/images/storymap13.PNG)
 
 Now we're ready to turn our map into a story.
 
@@ -142,7 +142,7 @@ The Story Map Journal interface is divided into a "Main Stage" and a "Side Panel
 ![ArcGIS Story Map Journal Building start](/images/storymap07.png)
 
 * Keep all of the default options and click "Next"
-* You'll then be asked to populate your Side Panel (this is where the text and media of your narrative go) ArcGIS wants you to create a home section, with a project subtitle (the title you gave earlier will display automatically), and maybe an introductory image first.
+* You'll then be asked to populate your Side Panel (this is where the text and media of your narrative go). ArcGIS wants you to create a home section, with a project subtitle (the title you gave earlier will display automatically), and maybe an introductory image first.
 
 ![ArcGIS Story Map Journal Side Panel Editor](/images/storymap08.png)
 
@@ -170,22 +170,30 @@ For each section you can set the content of the Main Stage to a map, image, vide
 
 If you keep the Main Stage content as a map, you can:
 * Change the location and zoom level of the map - (Click "Custom configuration" in "Location" section)
-* Choose which layers you want displayed on the map. Our map only has two layers, a basemap and a layer of crime incident datapoints. Some maps have dozens of layers of information, and discarding irrelavant layers can help clarify the point you're trying to make in a particular section - (Click "Custom configuration" in "Content" section)
+* Choose which layers you want displayed on the map. Our map only has two layers, a basemap and a layer of crime incident datapoints. Some maps have dozens of layers of information, and discarding irrelevant layers can help clarify the point you're trying to make in a particular section - (Click "Custom configuration" in "Content" section)
 * Display a pop-up containing supplementary information about a particular datapoint (feature) - (Click "Custom configuration" in "Pop-up" section)
-* Since you might display only a particular detail of the map for a section, you can keep the larger map displayed - ("Overview Map" in "Extras" section)
+* Since you might display only a particular detail of the map for a section, you can keep the larger map displayed in the bottom corner of the Main Stage- ("Overview Map" in "Extras" section)
 * You can also allow your audience to see the map legend or search for addresses, places, or features (data points) on your map - ("Extras" section)
 
-The Side Panel can present images, video, text description, links, block quotes, or bulleted and numbered lists.
+The Side Panel can contain 
+* **images**
+* **video**
+* **text description**
+* **links**
+* **block quotes**
+* or **bulleted and numbered lists**
 
-Here's an example of the combined functionality of each section (highlighted in red). I recentered and zoomed the map (to a particular neighborhood); I had the map display a detail pop-up of a particular datapoint; I have the overview map displayed in the corner; the legend can drop-down from the top; I have contextualizing imagery, video, and description in the Side Panel.
+Here's an example of the combined functionality of a section in the side panel (with each design decision highlighted in red). I recentered and zoomed the map (to a particular neighborhood); I had the map display a detail pop-up of a particular datapoint; I have the overview map displayed in the corner; the legend can drop-down from the top; I have contextualizing imagery, video, and description in the Side Panel.
 
 ![ArcGIS Story Map Journal final example](images/storymap12.PNG)
 
 I have posted the example used for this tutorial [here](http://arcg.is/2qoDTVl). Notice the effects when you scroll between sections. 
 
-** *Now all you have to do is string sections together to create a larger multimodal narrative -- all rooted in the geographic relationships of the spatial data and the multimedia qualitative anecdotes that make that data meaningful...* **
+***Now all you have to do is string sections together to create a larger multimodal narrative -- all rooted in the geographic relationships of the spatial data and the multimedia qualitative anecdotes that make that data meaningful...***
 
-When you're all done, you can share a link to your story map or embed it into a website. **Have fun!**
+When you're all done, you can share a link to your story map or embed it into a website.
+
+**Have fun!**
 
 [the story map created for this tutorial is completely fabricated and unrelated to any legitimate scholarly research project (thank goodness)]
 
@@ -201,6 +209,6 @@ Maps in online mapping platforms, such as Google Maps, OpenStreetMap, ArcGIS Onl
 
 There are a few ways to get a basemap tile set that isn't included as one of the default 12 maps in ArcGIS online.
 * To manually add a tile layer from the web, refer to the above blogpost
-* The easiest is just to locate a basemap layer on the ArcGIS public server and, while logged into your ArcGIS Online account, have that basemap "Open in Map Viewer".
+* The easiest way is just to locate a basemap layer on the ArcGIS server and, while logged into your ArcGIS Online account, have that basemap "Open in Map Viewer".
 
 ![ArcGIS open public map tile layer in map view](/images/storymapS1.png)
