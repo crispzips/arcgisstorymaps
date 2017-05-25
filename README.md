@@ -87,9 +87,12 @@ Notice the toolbar on the right at the top of the screen.
 
 ![ArcGIS Online Save Share Print Measure Search Toolbar](/images/storymap04.PNG)
 
-The measurement tool allows you to determine the area of any polygon (created by successively clicking where you want the vertices, not clicking and dragging and being limited to quandrangles); the length of any line segment, or series of non-linear but conjoined line segments (again by clicking in succession); or the latitude and longitude of a point.
+The measurement tool allows you to determine:
+* the area of any polygon (created by successively clicking where you want the vertices, not clicking and dragging and being limited to quandrangles)
+* the length of any line segment, or series of non-linear but conjoined line segments (again by clicking in succession)
+* or the latitude and longitude of a point.
 
-You can also save you map from this toolbar. Make sure you do this now before we proceed!
+You can also save your map from this toolbar. Make sure you do this now before we proceed!
 
 Initializing your map in an ArcGIS web application is unintuitive from this view.
 * Click "Share" in this top-right toolbar
@@ -98,14 +101,14 @@ Initializing your map in an ArcGIS web application is unintuitive from this view
 
 This will open a dialog box with access to the full suite of ArcGIS web applications, this isn't the forum to discuss all of them, especially given their specialized functionalities, but we will explore the Story Map applications.
 * Click the "Build a Story Map" tab.
- * Basic
- * Cascade
- * Crowdsource (beta)
- * Journal
- * Series
- * Shortlist (beta)
- * Swipe and Spyglass
- * Tour
+  * Basic
+  * Cascade
+  * Crowdsource (beta)
+  * Journal
+  * Series
+  * Shortlist (beta)
+  * Swipe and Spyglass
+  * Tour
 
 ![ArcGIS Story Map versions](/images/storymap05.PNG)
 
