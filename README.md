@@ -112,7 +112,7 @@ They represent different graphical/stylistic variations on the same concept: a m
 * Name your Story Map and tag it with identifiable keywords (these can simply be the name and tags of the map you created above)
 * and ... Click "Done"
 
-![ArcGIS Story Map start window](/images/storymap06.PNG)
+![ArcGIS Story Map start window](/images/storymap06.png)
 
 This will take you to an option between a floating panel and a side panel. You can see live examples for both of these through this dialog box, for simplicity, just select "Side Panel" and Click "Start"
 
@@ -124,7 +124,15 @@ Now we're ready to turn our map into a story.
 
 The Story Map Journal interface is divided into a "Main Stage" and a "Side Panel". First select what you want your audience to see on the Main Stage. This is most often (and probably the intention of ArcGIS) a map, but you are allow to make it an image, video, or web page as well.
 
-![ArcGIS Story Map Journal Building start](/images/storymap07.PNG)
+* In the "Select or create a map" dropdown menu, select the map of Lynchburg, VA crime incidents we created earlier, by the name you assigned your map.
+
+![ArcGIS Story Map Journal Building start](/images/storymap07.png)
+
+* Keep all of the default options and click "Next"
+* You'll then be asked to populate your Side Panel (this is where the text and media of your narrative go) ArcGIS wants you to creat a home section, with a project subtitle (the title you gave earlier will display automatically), and maybe an introductory image first.
+
+![ArcGIS Story Map Journal Side Panel Editor](/images/storymap08.png)
+
 
 ## Supplements
 
