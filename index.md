@@ -1,5 +1,24 @@
 # ArcGIS Story Maps
+
+## About
+Last Updated May 2017  
+Created by [Paul Vieth](http://paulkelleyvieth.org/)  
+University of Oklahoma Libraries
 An introductory tutorial for ArcGIS Story Maps
+
+## Table of Contents
+* [About](#about)
+* [Introduction](#introduction)
+* [Getting Started -- Creating your Basemap](#getting-started)
+  * [Basemap and Zoom](#basemap-and-zoom)
+  * [Layers](#layers)
+* [Story Maps](#story-maps)
+  * [Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application](#initializing-story-maps)
+  * [Building Your Story Map Journal](#building-your-story-map-journal)
+  * [Side Panel Functionality](#side-panel-functionality)
+* [Supplement](#supplement)
+
+## Introduction
 
 [ArcGIS](http://www.arcgis.com/home/index.html) is a [Geographic Information System](https://en.wikipedia.org/wiki/Geographic_information_system) platform.
 
@@ -11,25 +30,9 @@ The supplementary application we're interested in today is called [Story Maps](h
 
 Story Maps is a powerful tool that allows you to integrate an audiovisual narrative with the relevant geographic relationships between the moments of the narrative and their spatial locations.
 
-## Table of Contents
-* [About](#about)
-* [Getting Started -- Creating your Basemap](#getting-started)
-  * [Basemap and Zoom](#basemap-and-zoom)
-  * [Layers](#layers)
-* [Story Maps](#story-maps)
-  * [Thrusting into Story Maps -- Sharing to Initialize an ArcGIS Application](#initializing-story-maps)
-  * [Building Your Story Map Journal](#building-your-story-map-journal)
-  * [Side Panel Functionality](#side-panel-functionality)
-* [Supplement](#supplement)
-
-## About
-Last Updated May 2017  
-Created by [Paul Vieth](http://paulkelleyvieth.org/)  
-University of Oklahoma Libraries
-
 ## Getting Started
 
-ArcGIS uses the "freemium" model, so though they provide a professional version of their platform with high functionality for a cost, they also provide free public accounts. Before we get started, go to the [ArcGIS Online](https://www.arcgis.com/features/index.html) portal and create a free public account.
+ArcGIS uses the "freemium" model, so though they provide a professional version of their platform with high functionality for a cost, they also provide free public accounts. Before we get started, go to the [ArcGIS Online](https://www.arcgis.com/features/index.html) portal and click "Sign In" to create a free public account.
 
 When you've done that, click on the "Map" tab of the main menu. From the Arc GIS Online frontpage, you can also access the "Gallery" to see the potential of ArcGIS Online, or access the maps you've made under "My Content", once you've created some.
 
@@ -46,6 +49,8 @@ There are three things you can do from this screen:
 ArcGIS Online only allows preset quantum zooming, so you must use the "+/-" zoom buttons and operate within the coarse adjustments they permit.
 
 ArcGIS Online provides 12 preloaded basemap options. The default is called "Topographic", but there are options for satellite imagery, monochromatic maps, streetmaps from [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100), and others. Think tactically and tactfully about what you need to map to represent (and what you don't) in light of your project goals and aesthetic grammar.
+
+You can preview these options and select what you would like to use by clicking "Basemap" on the upper left side of the screen. 
 
 ### Layers
 The layers are the most important component of this preparatory process. "Layers" in ArcGIS can either mean map tile sets, or smatterings of geographic data (what ArcGIS calls "features"): both the quantitative data of latitudes and longitudes and the qualitative descriptions of what those points represent.
@@ -66,7 +71,7 @@ For this tutorial we're going to be using a crime incident dataset provided by t
 
 * Return to the ArcGIS Online Map Viewer. Click the "Add" dropdown menu and select "add layer from file." Browse for the Lynchburg, VA crime incidents dataset you just downloaded.
 
-Don't worry about the "Warning" window that just popped up. It's telling you the dataset has more than 1000 features (datapoints). For the sake of ease and speed, dismiss this dialog box by clicking "No, Stop Adding Features".
+Don't worry about the "Warning" window that just popped up. It's telling you the dataset has more than 1000 features (datapoints). For the sake of ease and speed, dismiss this dialog box by clicking "No, Stop Adding Features". [ArcGIS Online Help has tips for add larger datasets you can refer to if your own data exceeds the recommended 1,000 datapoints limit.](http://doc.arcgis.com/en/arcgis-online/reference/best-practices-layers.htm) 
 
 *[Another note about this dataset: It comes with unique geographic identifiers for each crime incident. If you upload your own data, ArcGIS online will ask you to connect either latitude and logitude, or a set of postal address identifiers to the column headings in your data.]*
 
@@ -197,7 +202,7 @@ When you're all done, you can share a link to your story map or embed it into a 
 
 [the story map created for this tutorial is completely fabricated and unrelated to any legitimate scholarly research project (thank goodness)]
 
-<hr></hr>
+<hr>
 
 ## Supplement
 
