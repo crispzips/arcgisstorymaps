@@ -1,5 +1,3 @@
-# ArcGIS Story Maps
-
 ## About
 Last Updated May 2017  
 Created by [Paul Vieth](http://paulkelleyvieth.org/)  
