@@ -25,7 +25,7 @@ Story Maps is a powerful tool that allows you to integrate an audiovisual narrat
 ## About
 Last Updated May 2017  
 Created by [Paul Vieth](http://paulkelleyvieth.org/)  
-University of Oklahoma Libraries
+University of Oklahoma Libraries :: Digital Scholarship Lab
 
 ## Getting Started
 
